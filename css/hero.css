@@ -18,11 +18,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 25px;
+    padding: 50px;
 }
 .hero-text{
-    padding: 25px;
     width: 50%;
+    display:flex;
+    align-items: start;
+    flex-direction: column;
 }
 .eyebrow{
     text-align: center;
@@ -31,9 +33,21 @@
     align-items: center;
 }
 .tiny-line{
-    width: 35px;
+    width: 25px;
     height: 1px;
-    background-color: #ac8050;
+    background-color: var(--caramel);
+}
+.eyebrow p{
+    font-size:8px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--caramel);
+}
+.hero-text h1{
+    font-size: clamp(1.5rem, 5vw + 0.95rem, 3.25rem);
+    letter-spacing: 1.25px;
+    font-family: "Libre Caslon Display", serif;
+    margin: 29px 0 25px;
 }
 
 .hero-display{
